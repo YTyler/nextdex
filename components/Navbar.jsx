@@ -10,12 +10,7 @@ export default function Navbar(props) {
       <div className={styles.left}>
         <Link href="/">
           <a>
-            <h1>QuestDex</h1>
-          </a>
-        </Link>
-        <Link href="/login">
-          <a>
-            <h3 className={styles.login}>Login/Register</h3>
+            <h1>NextDex</h1>
           </a>
         </Link>
       </div>
