@@ -1,0 +1,25 @@
+.quest {
+  display: flex;
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: moccasin;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-radius: 20px;
+  padding: 2em;
+  box-shadow: 8px 9px 5px -4px rgb(27, 27, 27),
+    -8px 9px 5px -4px rgb(27, 27, 27);
+  transition: 0.375s;
+}
+
+.quest:hover {
+  cursor: pointer;
+  width: 80%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 2.5em;
+  box-shadow: 12px 20px 15px -4px rgb(8, 8, 8),
+    -12px 20px 15px -4px rgb(8, 8, 8);
+}

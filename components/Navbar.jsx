@@ -16,16 +16,19 @@ export default function Navbar(props) {
       </div>
       <nav className={styles.right}>
         {/* Quest Icon */}
-        <div className={styles.button}>
-          <GiSwordSpade />
-          <h3>Quests</h3>
-        </div>
-
+        <Link href="/quests">
+          <a className={styles.button}>
+            <GiSwordSpade />
+            <h3>Quests</h3>
+          </a>
+        </Link>
         {/* Item Icon */}
-        <div className={styles.button}>
-          <GiSwapBag />
-          <h3>Items</h3>
-        </div>
+        <Link href="/items">
+          <a className={styles.button}>
+            <GiSwapBag />
+            <h3>Items</h3>
+          </a>
+        </Link>
       </nav>
     </div>
   );
