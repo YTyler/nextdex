@@ -1,0 +1,45 @@
+{
+	"id": "001",
+	"user": "exampleUser",
+	"password": "examplePassword",
+	"games": [
+		{
+			"id": "001",
+			"title": "exampleGame",
+			"quests": [
+				{
+					"id": "001",
+					"name": "exampleQuest1",
+					"items": [
+						{
+							"id": "001",
+							"name": "exampleItem1",
+							"number": "10"
+						},
+						{
+							"id": "002",
+							"name": "exampleItem2",
+							"number": "5"
+						}
+					]
+				},
+				{
+					"id": "002",
+					"name": "exampleQuest2",
+					"items": [
+						{
+							"id": "001",
+							"name": "exampleItem1",
+							"number": "5"
+						},
+						{
+							"id": "003",
+							"name": "exampleItem3",
+							"number": "8"
+						}
+					]
+				}
+			]
+		}
+	]
+}
